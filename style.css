@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 15px 50px;
+
+}
+
+.center {
+    display: flex;
+
+}
+
+.left h1,
+.center h1 {
+    margin: 10px 25px;
+    text-transform: uppercase;
+}
+.right span , .right i{
+   font-size: 25px;
+   margin: 10px 0px;
+}
+
+.page1 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.left-page {
+    height: 100%;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 70px;
+    color: white;
+}
+
+.right-page {
+    height: 100%;
+    width: 50%;
+    margin: 30px;
+}
+
+.left-page h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.left-page button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.right-page img {
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 , .box2 , .box3{
+    height: 50%;
+    width: 30%;
+    border: 2px solid white;
+    padding: 20px;
+color: white;
+text-align: center;
+}
+.card img{
+    height: 80%;
+    width: 75%;
+}
+
+.box1 h1 , .box2 h1 , .box3 h1{
+margin-bottom: 25px;
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.page3 img{
+    height: 15%;
+    width: 30%;
+    object-fit: cover;
+
+    margin: 20px;
+
+}
